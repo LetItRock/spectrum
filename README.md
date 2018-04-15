@@ -42,7 +42,7 @@ Spectrum has been under full-time development since March, 2017. See [the roadma
 - [Technical](docs/)
   - [Testing](docs/testing.md)
   - [Background Jobs](docs/backend/background-jobs.md)
-  - [Deployment](docs/backend/deployment.md)
+  - [Deployment](docs/deployments.md)
   - [API](docs/backend/api/)
     - [Fragments](docs/backend/api/fragments.md)
     - [Pagination](docs/backend/api/pagination.md)
@@ -151,6 +151,11 @@ The first step to running Spectrum locally is downloading the code by cloning th
 
 ```sh
 git clone git@github.com:withspectrum/spectrum.git
+```
+ If you get `Permission denied` error using `ssh` refer [here](https://help.github.com/articles/error-permission-denied-publickey/)
+or use `https` link as a fallback.
+```sh
+git clone https://github.com/withspectrum/spectrum.git
 ```
 
 #### Installation
